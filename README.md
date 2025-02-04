@@ -34,22 +34,20 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * N/A
 
 ## Laptop Specs/Details
-* Model: Huawei Matebook D15 boh-WAP9R
-* Processor:
-* CPUID:
-* iGPU:
-* dGPU: 
-* Ram: 8gb
-* DRIVE1 SSD: 
-* Keyboard connection type: PS/2
-* Trackpad connection type: I2C
-* Audio: 
-* Ethernet: None
-* WLAN:
+* Model: `Huawei Matebook D15 boh-WAP9R`
+* Processor: `17h Zen+ AMD Ryzen 7 3700U (Picasso)`
+* CPUID: `AMD Ryzen 7 Mobile 3700U`
+* iGPU: `AMD Radeon RX Vega 10 Graphics`
+* Ram: `8gb`
+* DRIVE1 SSD: `500GB NVMe`
+* Keyboard connection type: `PS/2`
+* Trackpad connection type: `I2C (GXTP7863@COL01)`
+* Audio: `Realtek ALC256`
+* Ethernet: `None`
+* WLAN: `Realtek`
 
 ## Links/Guides
+* https://chefkissinc.github.io/guides/hackintosh/ (AMD Hackintosh guide done right)
+* https://chefkissinc.github.io/applehax/nootedred (AMD iGPU Support)
 * https://github.com/acidanthera/OpenCorePkg (OpenCore Bootloader)
 * https://dortania.github.io/OpenCore-Install-Guide/ (OpenCore Setup,Installation,Troubleshooting)
-* https://dortania.github.io/OpenCore-Post-Install/misc/rtc.html#fixing-rtc-write-issues (Wake restart fix)
-* https://openintelwireless.github.io/itlwm/ (Native Intel WiFi)
-* https://openintelwireless.github.io/IntelBluetoothFirmware/ (Native Intel Bluetooth)
