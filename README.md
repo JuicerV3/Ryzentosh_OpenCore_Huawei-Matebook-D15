@@ -1,4 +1,4 @@
-# OpenCore 1.0.3 Debug - macOS Sonoma 14 - Huawei Matebook D15 boh-WAP9R
+# OpenCore 1.0.3 Debug - macOS Sonoma 14 - Huawei Matebook D15 boh-WAP9R (Work In Progress)
 
 ```
 * I am not responsible for any damage done to your device. Use at your own risk.
