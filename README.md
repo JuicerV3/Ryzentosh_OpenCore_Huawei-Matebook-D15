@@ -16,13 +16,14 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 
 ### What works (Recovery)
 * Recovery Booted
-* Battery readout
+* Recovery WiFi connection
+* Build-in display
 * Keyboard
 * Trackpad
-* Build-in display
+* Battery readout
 
 ### What not works
-* Wifi&Bluetooth
+* N/A
 
 ### Untested
 * N/A
