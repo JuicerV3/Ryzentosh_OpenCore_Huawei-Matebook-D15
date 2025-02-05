@@ -44,7 +44,7 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * Trackpad connection type: `I2C (GXTP7863@COL01)`
 * Audio: `Realtek ALC256`
 * Ethernet: `None`
-* WLAN: `Realtek`
+* WLAN: `Realtek RTL8822CE`
 
 ## Links/Guides
 * https://chefkissinc.github.io/guides/hackintosh/ (AMD Hackintosh guide done right)
