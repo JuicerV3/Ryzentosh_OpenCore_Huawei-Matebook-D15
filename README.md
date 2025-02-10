@@ -39,7 +39,7 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * Processor: `17h Zen+ AMD Ryzen 7 3700U (Picasso)`
 * CPUID: `AMD Ryzen 7 Mobile 3700U`
 * iGPU: `AMD Radeon RX Vega 10 Graphics`
-* Ram: `8gb`
+* Ram: `8gb (Onboard)`
 * DRIVE1 SSD: `500GB NVMe`
 * Keyboard connection type: `PS/2`
 * Trackpad connection type: `I2C (GXTP7863@COL01)`
