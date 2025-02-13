@@ -14,19 +14,28 @@
 ### You need to generate your own SMBIOS to signin with Apple ID
 Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate platforminfo using `MacBookPro16,3` as an SMBIOS for Monterey. Head to [Dortania's haswell platforminfo guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) for in-depth guide.
 
-### What works (Recovery)
-* Recovery Booted
-* Recovery WiFi connection
-* Build-in display
-* Keyboard
-* Trackpad
-* Battery readout
+### What works
+* Opencore Native macOS OTA Updates
+* NootedRed Radeon buildin display support
+* Metal 3 GPU Acceleration
+* WiFi & Bluetooth connection
+* Onboard Audio & Microphone
+* Keyboard & Trackpad
+* USB C, USB 3.0, USB 2.0
+* HDMI Video output
+* Battery read-out
+* Display Brightness Control & BrightnessKeys
+* Volume control keys
+* Sleep & Wake
+* lid Sleep
 
 ### What not works
-* N/A
+* Internal Webcam
+* Lid wake
 
 ### Untested
-* N/A
+* HDMI Audio output
+* 3.5mm audio
 
 ## Known issues
 * N/A
