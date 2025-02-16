@@ -1,3 +1,6 @@
+![screenshot2568-02-16at21 09 10~2](https://github.com/user-attachments/assets/4acc2268-31d2-4e1a-88f8-d3affdfec821)
+
+
 # OpenCore 1.0.3 Debug - macOS Sonoma 14 - Huawei Matebook D15 boh-WAP9R (Work In Progress)
 
 ```
@@ -23,6 +26,7 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * Keyboard & Trackpad
 * USB C, USB 3.0, USB 2.0
 * HDMI Video output
+* 3.5mm Audio input/output
 * Battery read-out
 * Display Brightness Control & BrightnessKeys
 * Volume control keys
@@ -30,15 +34,13 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * lid Sleep
 
 ### What not works
-* Internal Webcam
+* Some AMD MKL feature (discord.app, Adobe application)
+* Internal Webcam (Recognized but not working)
+* Fingerprint reader (Recognized as usb device)
 * Lid wake
 
-### Untested
-* HDMI Audio output
-* 3.5mm audio
-
 ## Known issues
-* N/A
+* HDMI Audio out
 
 ## Bios/UEFI Settings
 * N/A
