@@ -40,8 +40,8 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 
 ## Known issues
 ### AMD related issues
-* Some MKL (Math Kernel Library) application: DSP,VSTs,DAW or any audio processing application, Discord voice processing, Adobe application as it uses MKL to perform graphic calculation/signel processing.
-* Virtual Machine running off of AppleHV's framework will not work such as VirtualBox, Parallels, Docker (Some Android VM does work)
+* Some MKL (Math Kernel Library) application: DSP,VSTs,DAW or any audio processing application, Discord voice processing, Adobe application as it uses MKL to perform graphic calculation/signel processing. (This may help [AMDFriend](https://github.com/NyaomiDEV/AMDFriend))
+* Virtual Machine running off of AppleHV's framework will not work such as VirtualBox, Parallels  13.1+, Docker(Only Docker in VirtualBox or Docker Toolbox.) (Some Android VM does work)
 #### AMD Vega NootedRed related issues
 * Graphical artefacts and crash on Chromium (Blink engine) based application such as Chrome, Arc, Sublime Text, Canva will crash the entire system [[Workaround](https://chefkissinc.github.io/applehax/nootedred/) or use Safari]
 * HDMI Audio out and Audio control
