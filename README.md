@@ -34,13 +34,17 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * lid Sleep
 
 ### What not works
-* Some AMD MKL feature (discord.app, Adobe application)
 * Internal Webcam (Recognized but not working)
 * Fingerprint reader (Recognized as usb device)
 * Lid wake
 
 ## Known issues
-* HDMI Audio out
+### AMD related issues
+* Some MKL (Math Kernel Library) application: DSP,VSTs,DAW or any audio processing application, Discord voice processing, Adobe application as it uses MKL to perform graphic calculation/signel processing.
+* Virtual Machine running off of AppleHV's framework will not work such as VirtualBox, Parallels, Docker (Some Android VM does work)
+#### AMD Vega NootedRed related issues
+* Graphical artefacts and crash on Chromium (Blink engine) based application such as Chrome, Arc, Sublime Text, Canva will crash the entire system [[Workaround](https://chefkissinc.github.io/applehax/nootedred/) or use Safari]
+* HDMI Audio out and Audio control
 
 ## Bios/UEFI Settings
 * N/A
