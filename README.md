@@ -1,7 +1,7 @@
 ![screenshot2568-02-16at21 09 10~2](https://github.com/user-attachments/assets/4acc2268-31d2-4e1a-88f8-d3affdfec821)
 
 
-# OpenCore 1.0.3 Debug - macOS Sonoma 14 - Huawei Matebook D15 boh-WAP9R (Work In Progress)
+# OpenCore 1.0.3 Debug - macOS Sonoma 14 - Huawei Matebook D15 boh-WAP9R
 
 ```
 * I am not responsible for any damage done to your device. Use at your own risk.
@@ -39,6 +39,8 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * Lid wake
 
 ## Known issues
+* Some App crash the entire system causing restart
+* System can't handle intensive task
 ### AMD related issues
 * Some MKL (Math Kernel Library) application: DSP,VSTs,DAW or any audio processing application, Discord voice processing, Adobe application as it uses MKL to perform graphic calculation/signel processing. (This may help [AMDFriend](https://github.com/NyaomiDEV/AMDFriend))
 * Virtual Machine running off of AppleHV's framework will not work such as VirtualBox, Parallels  13.1+, Docker(Only Docker in VirtualBox or Docker Toolbox.) (Some Android VM does work)
@@ -60,7 +62,7 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * Trackpad connection type: `I2C (GXTP7863@COL01)`
 * Audio: `Realtek ALC256`
 * Ethernet: ~~`None`~~
-* WLAN: ~~`Realtek RTL8822CE`~~ `Intel(R) Wireless-AC 9560 160MHz (MVM Gen 2)`
+* WLAN: ~~`Realtek RTL8822CE`~~ `Intel Dual Band Wireless AC 3160`
 
 ## Links/Guides
 * https://chefkissinc.github.io/guides/hackintosh/ (AMD Hackintosh guide done right)
